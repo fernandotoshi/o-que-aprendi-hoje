@@ -1,0 +1,40 @@
+1. Organização (PodCast sobre Organização e Otimização do tempo)
+	- Aprendi que para que uma atividade se torne um hábito
+	é necessário que você realize em torno de 21 dias constantemente.
+	- A atividade que escolhi para tornar um hábito é contribuir no meu GitHub durante esses 21 dias. Até dia 05 de Novembro de 2020 devo ter 21 commits seguidos para que essa atividade se torne um hábito da minha rotina.
+
+2. Organização (Planejamento de Mercado e Financeiro)
+	- Construído e alimentado planilha de gastos com mercado, assim poderei calcular melhor meus gastos com a minha alimentação e me planejar melhor para a minha semana.
+	- Construído planilha de gastos financeiros, ficou pendente a alimentação da planilha, pois vai levar tempo.
+
+3. Aula Programação Orientada a Objetos (Professor Pisani - UFABC)
+	- Aula de compilação e package java
+	- Redirecionado a aula de Modelagem de Softwares e UML do Prof. Dr. Flávio Horita.
+
+4. Aula UML - Diagrama de Classes / Associações, Composição e Agregação (Prof. Dr. Flávio Horita)
+	- Associações
+		- Relacionamento entre conceitos que precisa ser lembrado pelo sistema durante seu funcionamento
+		- Ex: Associação entre Emprestimo e Leitor, que precisa ser lembrada pelo sistema, pois quando o Emprestime termina, o Leitor deve ter sua situação regularizada.
+	- Como identificar Associações?
+		- Algumas associações são bastante simples de serem identificadas.
+		- Outras associações são implícitas e podem requerer mais experiência do analista.
+		- Evite Associações redundantes, pois pode acontecer do diagrama ficar confuso e, consequentemente, com pouca legibilidade.
+		- Regra 1: Um conceito que, fisicamente ou logicamente, faz parte de outro.
+		- Regra 2: Um conceito que serve para descrever ou qualificar outro conceito.
+		- Regra 3: Um conceito que é responsável por registrar ou manter informações sobre outro.
+		- Ex: Atendente registra Leitor
+			- Multiplicidade da associação ex: 1..1(Isso significa que pode ser um, e não um em específico) 0..*
+	- Agregação
+		- Regra "tem-um"
+		- Mecanismo pelo qual um tipo inclui atributos (e comportamento) de outros tipos a ele agregados.
+		- Agregação Composta (Composição)
+			- Tipo de agregação "mais forte"
+			- Existência do objeto-parte Não faz sentido se o objeto-todo não existir.
+			- Notação em UML: losango negro
+		- Agregação Compartilhada (ou simplesmente Agregação)
+			- Denota que a multiplicidade na extremidade do composto pode ser maior do que um.
+			- Notação em UML: losango vazio
+	- Tipo Associativo
+		- Associação que possui propriedades de tipo (ou um tipo que tem propriedade de uma associação).
+		- Mostrada como um tipo ligada por uma linha tracejada a uma associação.
+
